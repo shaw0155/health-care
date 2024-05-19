@@ -42,12 +42,12 @@ function Copyright(props) {
       <strong>
         <a
           className="text-style"
-          href="https://akshybhosale.github.io/myshop"
+          href="#oni"
           target="_blank"
           rel="noreferrer noopener"
         >
-          Akshay Bhosale
-        </a>{" "}
+          Oni
+        </a>
       </strong>
       {"Copyright ©"}
       {new Date().getFullYear()}
