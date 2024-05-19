@@ -5,11 +5,10 @@ import {
   CardContent,
   Container,
   Grid,
-  LinearProgress,
   Typography,
 } from "@mui/material";
 import { Box } from "@mui/system";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import Doctors from "../../Services/Doctors/Doctors";
 
@@ -17,14 +16,11 @@ const OurExperts = () => {
   const [ourExperts, setOurExperts] = useState([]);
 
   // handle undifined problem in mapping data
-  useEffect(() => {
-    if (Doctors.length > 1) {
-      const serv = Doctors?.slice(0, 3);
-      setOurExperts(serv);
-    } else {
-      <LinearProgress color="secondary" />;
-    }
-  }, [Doctors]);
+
+  if (Doctors.length > 1) {
+    const serv = Doctors?.slice(0, 3);
+    setOurExperts(serv);
+  }
 
   return (
     <Box
