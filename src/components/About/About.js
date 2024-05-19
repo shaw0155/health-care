@@ -46,13 +46,9 @@ const About = () => {
           Be sure to leave a review on <strong>Health Care</strong> of any
           hospital you’ve visited, whether you’ve had a negative or a positive
           experience. Share your suggestions about writing hospital reviews in
-          the comments below or message us on LINKEDIN{" "}
-          <a
-            href="https://www.linkedin.com/in/akshay72/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <strong> @Akshay</strong>
+          the comments below or message us on LINKEDIN
+          <a href="#oni" rel="noopener noreferrer">
+            <strong> Oni</strong>
           </a>
           .
           <br />
